@@ -105,6 +105,13 @@
       "shufersal_barcode": "8700216527842",
       "notes": "same barcode both chains",
       "added": "2026-08-27"
+    },
+    {
+      "name": "חיתולי האגיס פרידום מידה 4, 38 יח'",
+      "osherad_barcode": "7290000197456",
+      "shufersal_barcode": "7290000197456",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
     }
   ]
 }
