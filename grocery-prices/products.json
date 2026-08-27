@@ -58,11 +58,12 @@
       "added": "2026-08-25"
     },
     {
-      "name": "גבינה צהובה 28% 500 גרם",
+      "name": "גבינה צהובה 28% (מחיר ל-100 גרם)",
       "osherad_barcode": "7290102394463",
-      "shufersal_barcode": "7290000055350",
-      "notes": "osherad = גבינה נעם 28% 500 גר, fixed 500g block. shufersal = גבינת עמק 28% חריץ במשקל, sold by weight (₪/kg) — multiply shufersal ItemPrice by 0.5 for the 500g-equivalent price. Different brands (נעם vs עמק) but closest genuinely comparable match: both Israeli-made 28% yellow cheese, both actively sold. osherad's own עמק-brand listing (barcode 7290014763395/7290014761698) is stale — no sale since June 2026 — so it was rejected as unreliable for daily tracking.",
-      "shufersal_normalize": "price * 0.5, round 2 decimals",
+      "shufersal_barcode": "7290004125776",
+      "notes": "Both sides are sealed/packaged (not by-weight): osherad = גבינה נעם 28% 500 גר, plain block, 500g. shufersal = גב.עמק פרוס 28% קופסא 400ג, sliced, 400g box. Different pack sizes AND different format (block vs sliced) AND different brands (נעם vs עמק) — decided (per user) to normalize both to price-per-100g rather than pick one side's native pack size as the base, since no cleanly matching pack size/format exists. osherad's own עמק-brand listing (barcode 7290014763395/7290014761698, plain block) is stale — no sale since June 2026 — rejected as unreliable. A by-weight shufersal option (7290000055350, ₪/kg) was also considered and rejected in favor of this packaged one, per user preference for package-vs-package.",
+      "osherad_normalize": "price / 500 * 100, round 2 decimals",
+      "shufersal_normalize": "price / 400 * 100, round 2 decimals",
       "added": "2026-08-27"
     }
   ]
