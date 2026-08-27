@@ -140,6 +140,27 @@
       "shufersal_barcode": "7290000000480",
       "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose dry onion, Israeli-grown, priced per kg, both actively sold)",
       "added": "2026-08-27"
+    },
+    {
+      "name": "סירופ יכין פטל דיאט 1 ליטר",
+      "osherad_barcode": "7290000209524",
+      "shufersal_barcode": "7290000209524",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "יין סגל אדום יבש 750 מ\"ל",
+      "osherad_barcode": "7290000521008",
+      "shufersal_barcode": "7290000521008",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "יין טפרברג מוסקטו לבן 750 מ\"ל",
+      "osherad_barcode": "7290015781275",
+      "shufersal_barcode": "7290015781275",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
     }
   ]
 }
