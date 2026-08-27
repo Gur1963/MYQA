@@ -1,44 +1,46 @@
 {
   "_comment": "Single source of truth for tracked products. The daily routine reads this file instead of hardcoding the list in its prompt. Matching philosophy: match by PRODUCT IDENTITY (name/manufacturer/weight), not literal barcode equality — retailers sometimes register the same physical product under different EANs.",
+  "_category_order": ["מוצרי חלב", "מאכל ושתיה סגורים", "ניקיון וטואלטיקה", "פירות וירקות"],
   "products": [
     {
       "name": "חלב 3% תנובה 1 ליטר",
+      "category": "מוצרי חלב",
       "osherad_barcode": "7290004131074",
       "shufersal_barcode": "7290004131074",
       "notes": "same barcode both chains"
     },
     {
       "name": "קוטג' תנובה 5% 250 גרם",
+      "category": "מוצרי חלב",
       "osherad_barcode": "7290004127329",
       "shufersal_barcode": "7290004127329",
       "notes": "same barcode both chains"
     },
     {
+      "name": "גבינה צהובה 9% פרוסות 200 גרם",
+      "category": "מוצרי חלב",
+      "osherad_barcode": "7290102394845",
+      "shufersal_barcode": "7290004122348",
+      "notes": "Clean exact match found after checking every fat-percentage tier: osherad = פרוסות גבינה נעם 9%, shufersal = גבינת עמק 9% פרוס 200 גר — identical format (sliced box), identical weight (200g), identical fat % (9%), both actively sold. This is a genuinely equivalent product, unlike the 28% tier where no matching packaged format exists on both sides (osherad only sells 28% as a plain 500g block or a cheap unrelated Polish import; osherad's own עמק 28% listing is stale — no sale since June 2026). No normalization needed — same pack size both sides.",
+      "added": "2026-08-27"
+    },
+    {
       "name": "טונה סטארקיסט בשמן 4X160 גרם",
+      "category": "מאכל ושתיה סגורים",
       "osherad_barcode": "7290005287213",
       "shufersal_barcode": "7290005287206",
       "notes": "same physical product (טונה בשמן סטארקיסט, 640g, ת. ישראל) registered under different EANs per chain — confirmed by name/manufacturer/weight, not barcode"
     },
     {
       "name": "קפה נמס טסטרס צויס 200 גרם",
+      "category": "מאכל ושתיה סגורים",
       "osherad_barcode": "7290000072753",
       "shufersal_barcode": "7290000072753",
       "notes": "same barcode both chains"
     },
     {
-      "name": "מגבות נייר ניקול 6 גלילים",
-      "osherad_barcode": "7290000188355",
-      "shufersal_barcode": "7290000188355",
-      "notes": "same barcode both chains"
-    },
-    {
-      "name": "נייר טואלט לילי פסטל 32 גלילים",
-      "osherad_barcode": "7290000187938",
-      "shufersal_barcode": "7290000187938",
-      "notes": "same barcode both chains"
-    },
-    {
       "name": "ביצים L (מנורמל ל-12 יח')",
+      "category": "מאכל ושתיה סגורים",
       "osherad_barcode": "7290011778187",
       "shufersal_barcode": "7290001201572",
       "notes": "osherad = ביצים 18 יח' בינוני (18-count medium); shufersal = ביצים ארוזות XL 12 יחידות (12-count XL) — closest equivalent available at each chain",
@@ -46,103 +48,14 @@
     },
     {
       "name": "קוקה קולה זירו 1.5 ליטר",
+      "category": "מאכל ושתיה סגורים",
       "osherad_barcode": "7290110115227",
       "shufersal_barcode": "7290110115227",
       "notes": "same barcode both chains"
     },
     {
-      "name": "תפוח עץ פינק ליידי 1 ק\"ג",
-      "osherad_barcode": "7290009007138",
-      "shufersal_barcode": "7290000963259",
-      "notes": "osherad = תפוח עץ פינק (ת. ישראל); shufersal = תפוח עץ פינקליידי ארה\"ב* — both weighted/priced per kg, country of origin differs but same tracked product line",
-      "added": "2026-08-25"
-    },
-    {
-      "name": "גבינה צהובה 9% פרוסות 200 גרם",
-      "osherad_barcode": "7290102394845",
-      "shufersal_barcode": "7290004122348",
-      "notes": "Clean exact match found after checking every fat-percentage tier: osherad = פרוסות גבינה נעם 9%, shufersal = גבינת עמק 9% פרוס 200 גר — identical format (sliced box), identical weight (200g), identical fat % (9%), both actively sold. This is a genuinely equivalent product, unlike the 28% tier where no matching packaged format exists on both sides (osherad only sells 28% as a plain 500g block or a cheap unrelated Polish import; osherad's own עמק 28% listing is stale — no sale since June 2026). No normalization needed — same pack size both sides.",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "אקונומיקה סנו גאוול 4 ליטר",
-      "osherad_barcode": "7290000288024",
-      "shufersal_barcode": "7290000288024",
-      "notes": "same barcode both chains",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "מרכך כביסה מקסימה מרוכז 1 ליטר",
-      "osherad_barcode": "7290108358384",
-      "shufersal_barcode": "7290108358384",
-      "notes": "same barcode both chains",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "כדוריות ניקוי אסלה סוד לימון 150 גרם",
-      "osherad_barcode": "7290100924457",
-      "shufersal_barcode": "7290100924457",
-      "notes": "same barcode both chains",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "מגבוני האגיס ללא בישום 4X56",
-      "osherad_barcode": "7290000195537",
-      "shufersal_barcode": "7290000195537",
-      "notes": "same barcode both chains",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "שמפו הד&שולדרס קלאסי 625 מ\"ל",
-      "osherad_barcode": "8700216418300",
-      "shufersal_barcode": "8700216418300",
-      "notes": "same barcode both chains",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "שמפו פנטן משקם 600 מ\"ל",
-      "osherad_barcode": "8700216527842",
-      "shufersal_barcode": "8700216527842",
-      "notes": "same barcode both chains",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "חיתולי האגיס פרידום מידה 4, 38 יח'",
-      "osherad_barcode": "7290000197456",
-      "shufersal_barcode": "7290000197456",
-      "notes": "same barcode both chains",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "עגבניה (ק\"ג)",
-      "osherad_barcode": "7290009000122",
-      "shufersal_barcode": "7290000000022",
-      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose tomato, Israeli-grown, priced per kg, both actively sold)",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "מלפפון (ק\"ג)",
-      "osherad_barcode": "7290009000207",
-      "shufersal_barcode": "7290000000046",
-      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose cucumber, Israeli-grown, priced per kg, both actively sold)",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "בננות (ק\"ג)",
-      "osherad_barcode": "7290009005417",
-      "shufersal_barcode": "7290000964775",
-      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose banana, priced per kg, both actively sold)",
-      "added": "2026-08-27"
-    },
-    {
-      "name": "בצל יבש (ק\"ג)",
-      "osherad_barcode": "7290009000900",
-      "shufersal_barcode": "7290000000480",
-      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose dry onion, Israeli-grown, priced per kg, both actively sold)",
-      "added": "2026-08-27"
-    },
-    {
       "name": "סירופ יכין פטל דיאט 1 ליטר",
+      "category": "מאכל ושתיה סגורים",
       "osherad_barcode": "7290000209524",
       "shufersal_barcode": "7290000209524",
       "notes": "same barcode both chains",
@@ -150,6 +63,7 @@
     },
     {
       "name": "יין סגל אדום יבש 750 מ\"ל",
+      "category": "מאכל ושתיה סגורים",
       "osherad_barcode": "7290000521008",
       "shufersal_barcode": "7290000521008",
       "notes": "same barcode both chains",
@@ -157,9 +71,120 @@
     },
     {
       "name": "יין טפרברג מוסקטו לבן 750 מ\"ל",
+      "category": "מאכל ושתיה סגורים",
       "osherad_barcode": "7290015781275",
       "shufersal_barcode": "7290015781275",
       "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "מגבות נייר ניקול 6 גלילים",
+      "category": "ניקיון וטואלטיקה",
+      "osherad_barcode": "7290000188355",
+      "shufersal_barcode": "7290000188355",
+      "notes": "same barcode both chains"
+    },
+    {
+      "name": "נייר טואלט לילי פסטל 32 גלילים",
+      "category": "ניקיון וטואלטיקה",
+      "osherad_barcode": "7290000187938",
+      "shufersal_barcode": "7290000187938",
+      "notes": "same barcode both chains"
+    },
+    {
+      "name": "אקונומיקה סנו גאוול 4 ליטר",
+      "category": "ניקיון וטואלטיקה",
+      "osherad_barcode": "7290000288024",
+      "shufersal_barcode": "7290000288024",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "מרכך כביסה מקסימה מרוכז 1 ליטר",
+      "category": "ניקיון וטואלטיקה",
+      "osherad_barcode": "7290108358384",
+      "shufersal_barcode": "7290108358384",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "כדוריות ניקוי אסלה סוד לימון 150 גרם",
+      "category": "ניקיון וטואלטיקה",
+      "osherad_barcode": "7290100924457",
+      "shufersal_barcode": "7290100924457",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "מגבוני האגיס ללא בישום 4X56",
+      "category": "ניקיון וטואלטיקה",
+      "osherad_barcode": "7290000195537",
+      "shufersal_barcode": "7290000195537",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "שמפו הד&שולדרס קלאסי 625 מ\"ל",
+      "category": "ניקיון וטואלטיקה",
+      "osherad_barcode": "8700216418300",
+      "shufersal_barcode": "8700216418300",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "שמפו פנטן משקם 600 מ\"ל",
+      "category": "ניקיון וטואלטיקה",
+      "osherad_barcode": "8700216527842",
+      "shufersal_barcode": "8700216527842",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "חיתולי האגיס פרידום מידה 4, 38 יח'",
+      "category": "ניקיון וטואלטיקה",
+      "osherad_barcode": "7290000197456",
+      "shufersal_barcode": "7290000197456",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "תפוח עץ פינק ליידי 1 ק\"ג",
+      "category": "פירות וירקות",
+      "osherad_barcode": "7290009007138",
+      "shufersal_barcode": "7290000963259",
+      "notes": "osherad = תפוח עץ פינק (ת. ישראל); shufersal = תפוח עץ פינקליידי ארה\"ב* — both weighted/priced per kg, country of origin differs but same tracked product line",
+      "added": "2026-08-25"
+    },
+    {
+      "name": "עגבניה (ק\"ג)",
+      "category": "פירות וירקות",
+      "osherad_barcode": "7290009000122",
+      "shufersal_barcode": "7290000000022",
+      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose tomato, Israeli-grown, priced per kg, both actively sold)",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "מלפפון (ק\"ג)",
+      "category": "פירות וירקות",
+      "osherad_barcode": "7290009000207",
+      "shufersal_barcode": "7290000000046",
+      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose cucumber, Israeli-grown, priced per kg, both actively sold)",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "בננות (ק\"ג)",
+      "category": "פירות וירקות",
+      "osherad_barcode": "7290009005417",
+      "shufersal_barcode": "7290000964775",
+      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose banana, priced per kg, both actively sold)",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "בצל יבש (ק\"ג)",
+      "category": "פירות וירקות",
+      "osherad_barcode": "7290009000900",
+      "shufersal_barcode": "7290000000480",
+      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose dry onion, Israeli-grown, priced per kg, both actively sold)",
       "added": "2026-08-27"
     }
   ]
