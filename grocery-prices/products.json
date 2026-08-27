@@ -1,0 +1,69 @@
+{
+  "_comment": "Single source of truth for tracked products. The daily routine reads this file instead of hardcoding the list in its prompt. Matching philosophy: match by PRODUCT IDENTITY (name/manufacturer/weight), not literal barcode equality — retailers sometimes register the same physical product under different EANs.",
+  "products": [
+    {
+      "name": "חלב 3% תנובה 1 ליטר",
+      "osherad_barcode": "7290004131074",
+      "shufersal_barcode": "7290004131074",
+      "notes": "same barcode both chains"
+    },
+    {
+      "name": "קוטג' תנובה 5% 250 גרם",
+      "osherad_barcode": "7290004127329",
+      "shufersal_barcode": "7290004127329",
+      "notes": "same barcode both chains"
+    },
+    {
+      "name": "טונה סטארקיסט בשמן 4X160 גרם",
+      "osherad_barcode": "7290005287213",
+      "shufersal_barcode": "7290005287206",
+      "notes": "same physical product (טונה בשמן סטארקיסט, 640g, ת. ישראל) registered under different EANs per chain — confirmed by name/manufacturer/weight, not barcode"
+    },
+    {
+      "name": "קפה נמס טסטרס צויס 200 גרם",
+      "osherad_barcode": "7290000072753",
+      "shufersal_barcode": "7290000072753",
+      "notes": "same barcode both chains"
+    },
+    {
+      "name": "מגבות נייר ניקול 6 גלילים",
+      "osherad_barcode": "7290000188355",
+      "shufersal_barcode": "7290000188355",
+      "notes": "same barcode both chains"
+    },
+    {
+      "name": "נייר טואלט לילי פסטל 32 גלילים",
+      "osherad_barcode": "7290000187938",
+      "shufersal_barcode": "7290000187938",
+      "notes": "same barcode both chains"
+    },
+    {
+      "name": "ביצים L (מנורמל ל-12 יח')",
+      "osherad_barcode": "7290011778187",
+      "shufersal_barcode": "7290001201572",
+      "notes": "osherad = ביצים 18 יח' בינוני (18-count medium); shufersal = ביצים ארוזות XL 12 יחידות (12-count XL) — closest equivalent available at each chain",
+      "osherad_normalize": "price / 18 * 12, round 2 decimals"
+    },
+    {
+      "name": "קוקה קולה זירו 1.5 ליטר",
+      "osherad_barcode": "7290110115227",
+      "shufersal_barcode": "7290110115227",
+      "notes": "same barcode both chains"
+    },
+    {
+      "name": "תפוח עץ פינק ליידי 1 ק\"ג",
+      "osherad_barcode": "7290009007138",
+      "shufersal_barcode": "7290000963259",
+      "notes": "osherad = תפוח עץ פינק (ת. ישראל); shufersal = תפוח עץ פינקליידי ארה\"ב* — both weighted/priced per kg, country of origin differs but same tracked product line",
+      "added": "2026-08-25"
+    },
+    {
+      "name": "גבינה צהובה 28% 500 גרם",
+      "osherad_barcode": "7290102394463",
+      "shufersal_barcode": "7290000055350",
+      "notes": "osherad = גבינה נעם 28% 500 גר, fixed 500g block. shufersal = גבינת עמק 28% חריץ במשקל, sold by weight (₪/kg) — multiply shufersal ItemPrice by 0.5 for the 500g-equivalent price. Different brands (נעם vs עמק) but closest genuinely comparable match: both Israeli-made 28% yellow cheese, both actively sold. osherad's own עמק-brand listing (barcode 7290014763395/7290014761698) is stale — no sale since June 2026 — so it was rejected as unreliable for daily tracking.",
+      "shufersal_normalize": "price * 0.5, round 2 decimals",
+      "added": "2026-08-27"
+    }
+  ]
+}
