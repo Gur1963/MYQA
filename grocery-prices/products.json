@@ -63,6 +63,48 @@
       "shufersal_barcode": "7290004122348",
       "notes": "Clean exact match found after checking every fat-percentage tier: osherad = פרוסות גבינה נעם 9%, shufersal = גבינת עמק 9% פרוס 200 גר — identical format (sliced box), identical weight (200g), identical fat % (9%), both actively sold. This is a genuinely equivalent product, unlike the 28% tier where no matching packaged format exists on both sides (osherad only sells 28% as a plain 500g block or a cheap unrelated Polish import; osherad's own עמק 28% listing is stale — no sale since June 2026). No normalization needed — same pack size both sides.",
       "added": "2026-08-27"
+    },
+    {
+      "name": "אקונומיקה סנו גאוול 4 ליטר",
+      "osherad_barcode": "7290000288024",
+      "shufersal_barcode": "7290000288024",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "מרכך כביסה מקסימה מרוכז 1 ליטר",
+      "osherad_barcode": "7290108358384",
+      "shufersal_barcode": "7290108358384",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "כדוריות ניקוי אסלה סוד לימון 150 גרם",
+      "osherad_barcode": "7290100924457",
+      "shufersal_barcode": "7290100924457",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "מגבוני האגיס ללא בישום 4X56",
+      "osherad_barcode": "7290000195537",
+      "shufersal_barcode": "7290000195537",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "שמפו הד&שולדרס קלאסי 625 מ\"ל",
+      "osherad_barcode": "8700216418300",
+      "shufersal_barcode": "8700216418300",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "שמפו פנטן משקם 600 מ\"ל",
+      "osherad_barcode": "8700216527842",
+      "shufersal_barcode": "8700216527842",
+      "notes": "same barcode both chains",
+      "added": "2026-08-27"
     }
   ]
 }
