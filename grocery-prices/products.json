@@ -58,12 +58,10 @@
       "added": "2026-08-25"
     },
     {
-      "name": "גבינה צהובה 28% (מחיר ל-100 גרם)",
-      "osherad_barcode": "7290102394463",
-      "shufersal_barcode": "7290004125776",
-      "notes": "Both sides are sealed/packaged (not by-weight): osherad = גבינה נעם 28% 500 גר, plain block, 500g. shufersal = גב.עמק פרוס 28% קופסא 400ג, sliced, 400g box. Different pack sizes AND different format (block vs sliced) AND different brands (נעם vs עמק) — decided (per user) to normalize both to price-per-100g rather than pick one side's native pack size as the base, since no cleanly matching pack size/format exists. osherad's own עמק-brand listing (barcode 7290014763395/7290014761698, plain block) is stale — no sale since June 2026 — rejected as unreliable. A by-weight shufersal option (7290000055350, ₪/kg) was also considered and rejected in favor of this packaged one, per user preference for package-vs-package.",
-      "osherad_normalize": "price / 500 * 100, round 2 decimals",
-      "shufersal_normalize": "price / 400 * 100, round 2 decimals",
+      "name": "גבינה צהובה 9% פרוסות 200 גרם",
+      "osherad_barcode": "7290102394845",
+      "shufersal_barcode": "7290004122348",
+      "notes": "Clean exact match found after checking every fat-percentage tier: osherad = פרוסות גבינה נעם 9%, shufersal = גבינת עמק 9% פרוס 200 גר — identical format (sliced box), identical weight (200g), identical fat % (9%), both actively sold. This is a genuinely equivalent product, unlike the 28% tier where no matching packaged format exists on both sides (osherad only sells 28% as a plain 500g block or a cheap unrelated Polish import; osherad's own עמק 28% listing is stale — no sale since June 2026). No normalization needed — same pack size both sides.",
       "added": "2026-08-27"
     }
   ]
