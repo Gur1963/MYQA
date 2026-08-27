@@ -112,6 +112,34 @@
       "shufersal_barcode": "7290000197456",
       "notes": "same barcode both chains",
       "added": "2026-08-27"
+    },
+    {
+      "name": "עגבניה (ק\"ג)",
+      "osherad_barcode": "7290009000122",
+      "shufersal_barcode": "7290000000022",
+      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose tomato, Israeli-grown, priced per kg, both actively sold)",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "מלפפון (ק\"ג)",
+      "osherad_barcode": "7290009000207",
+      "shufersal_barcode": "7290000000046",
+      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose cucumber, Israeli-grown, priced per kg, both actively sold)",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "בננות (ק\"ג)",
+      "osherad_barcode": "7290009005417",
+      "shufersal_barcode": "7290000964775",
+      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose banana, priced per kg, both actively sold)",
+      "added": "2026-08-27"
+    },
+    {
+      "name": "בצל יבש (ק\"ג)",
+      "osherad_barcode": "7290009000900",
+      "shufersal_barcode": "7290000000480",
+      "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose dry onion, Israeli-grown, priced per kg, both actively sold)",
+      "added": "2026-08-27"
     }
   ]
 }
