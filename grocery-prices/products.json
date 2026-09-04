@@ -134,9 +134,10 @@
     {
       "name": "שמפו פנטן משקם 600 מ\"ל",
       "category": "ניקיון וטואלטיקה",
-      "osherad_barcode": "8700216527842",
+      "osherad_barcode": "8006530323482",
       "shufersal_barcode": "8700216527842",
-      "notes": "same barcode both chains",
+      "notes": "osherad barcode 8700216527842 (פנטן שמפו משקם 600 מ\"ל, same as shufersal) stopped resolving in the osherad catalog as of 2026-09-04 -- appears delisted (no longer appearing in PriceFull feed). Closest genuinely-equivalent still-sold product found by catalog search: 8006530323482 = 'שמפו פנטן עם שמן משק[ם]' (Pantene shampoo with repair oil, same P&G/Pantene repair line, same manufacturer/country), but sold as a 1-liter bottle instead of 600ml. Applied a size-normalize formula to keep the tracked price on the same 600ml basis as before.",
+      "osherad_normalize": "price / 1000 * 600, round 2 decimals",
       "added": "2026-08-27"
     },
     {
