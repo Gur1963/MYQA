@@ -187,6 +187,54 @@
       "shufersal_barcode": "7290000000480",
       "notes": "fresh produce — no shared barcode between chains, matched by product identity (plain loose dry onion, Israeli-grown, priced per kg, both actively sold)",
       "added": "2026-08-27"
+    },
+    {
+      "name": "שיבולת שועל קוואקר 500 גרם",
+      "category": "מאכל ושתיה סגורים",
+      "osherad_barcode": "7290000480107",
+      "shufersal_barcode": "7290000480107",
+      "notes": "Quaker quick oats, 500g tin ('קואקר שיבולת שועל פח'). National brand — assumed same EAN both chains; verify against the PriceFull feed on first run and fall back to name/manufacturer/weight search if it doesn't resolve.",
+      "added": "2026-09-06"
+    },
+    {
+      "name": "חמאת בוטנים טעמן קלאסית 510 גרם",
+      "category": "מאכל ושתיה סגורים",
+      "osherad_barcode": "7290010175819",
+      "shufersal_barcode": "7290010175819",
+      "notes": "User's wife asked for 'מותג הבית' but Osher Ad has no private-label peanut butter, so a national brand carried by both chains at the same 510g weight was chosen instead (weight parity was her only firm requirement). Taaman classic 510g. Verify EAN against the feed on first run.",
+      "added": "2026-09-06"
+    },
+    {
+      "name": "ספגטי אסם פרפקטו 500 גרם",
+      "category": "מאכל ושתיה סגורים",
+      "osherad_barcode": "7290000060316",
+      "shufersal_barcode": "7290000060316",
+      "notes": "Osem Perfecto spaghetti 500g ('אודם' in the request was a mishearing of 'אסם'). National brand — assumed same EAN both chains; verify on first run.",
+      "added": "2026-09-06"
+    },
+    {
+      "name": "פסטה אסם פרפקטו פנה ריגטה 500 גרם",
+      "category": "מאכל ושתיה סגורים",
+      "osherad_barcode": "7290000069258",
+      "shufersal_barcode": "7290000069258",
+      "notes": "Requested as 'פסטה בצורת בורד' from Perfecto; Perfecto makes no bow-tie/farfalle shape, and the user said any Perfecto shape both chains carry at the same size is fine — penne rigate 500g chosen as the most universally stocked short shape. Verify EAN on first run.",
+      "added": "2026-09-06"
+    },
+    {
+      "name": "דבש יד מרדכי טהור מפרחי בר 350 גרם",
+      "category": "מאכל ושתיה סגורים",
+      "osherad_barcode": "7290002130567",
+      "shufersal_barcode": "7290002130567",
+      "notes": "User asked for 300g; no 300g exists — closest is the 350g jar ('דבש טהור מפרחי בר', צנצנת), which the user approved. Yad Mordechai / Strauss. Verify EAN on first run.",
+      "added": "2026-09-06"
+    },
+    {
+      "name": "רביולי פסטה נונה גבינות 400 גרם",
+      "category": "מאכל ושתיה סגורים",
+      "osherad_barcode": "7290006306302",
+      "shufersal_barcode": "7290006306302",
+      "notes": "Pasta Nonna cheese ravioli (parmesan & ricotta filling), 400g — the plain 'רגיל' version, not the kids' variant (7290006306296), the sweet-potato one (7290006306319), or any butter-sauce version. Chilled fresh pasta — availability can be less stable between chains; confirm Osher Ad still stocks it on first run and search by name/manufacturer/weight if the barcode doesn't resolve.",
+      "added": "2026-09-06"
     }
   ]
 }
