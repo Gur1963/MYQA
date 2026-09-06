@@ -192,48 +192,48 @@
       "name": "שיבולת שועל קוואקר 500 גרם",
       "category": "מאכל ושתיה סגורים",
       "osherad_barcode": "7290000480107",
-      "shufersal_barcode": "7290000480107",
-      "notes": "Quaker quick oats, 500g tin ('קואקר שיבולת שועל פח'). National brand — assumed same EAN both chains; verify against the PriceFull feed on first run and fall back to name/manufacturer/weight search if it doesn't resolve.",
+      "shufersal_barcode": "5000108478119",
+      "notes": "Quaker oats 500g, made in England (manufacturer listed as Walkers Snacks Ltd, a PepsiCo/Quaker UK subsidiary) on both feeds. Osher Ad EAN 7290000480107 resolved as assumed; Shufersal registers the same physical product under a different (UK-prefix) EAN 5000108478119 — updated 2026-09-06 after first-run verification, matched by name/manufacturer/weight.",
       "added": "2026-09-06"
     },
     {
-      "name": "חמאת בוטנים טעמן קלאסית 510 גרם",
+      "name": "חמאת בוטנים טבעית בטר אנד דיפרנט 350 גרם",
       "category": "מאכל ושתיה סגורים",
-      "osherad_barcode": "7290010175819",
-      "shufersal_barcode": "7290010175819",
-      "notes": "User's wife asked for 'מותג הבית' but Osher Ad has no private-label peanut butter, so a national brand carried by both chains at the same 510g weight was chosen instead (weight parity was her only firm requirement). Taaman classic 510g. Verify EAN against the feed on first run.",
+      "osherad_barcode": "7290000446547",
+      "shufersal_barcode": "7290000446547",
+      "notes": "User's wife asked for 'מותג הבית' but Osher Ad has no private-label peanut butter. The originally chosen 'Taaman classic 510g' (barcode 7290010175819) does not exist in either chain's feed — Taaman does not sell peanut butter at all. On first-run verification (2026-09-06) found 'חמאת בוטנים טבעית' (Better & Different, natural, 350g) under the SAME EAN at both chains — a cleaner match than forcing mismatched-brand 510g products, since weight parity (not literally 510g) was her real requirement. Updated name/barcode accordingly.",
       "added": "2026-09-06"
     },
     {
-      "name": "ספגטי אסם פרפקטו 500 גרם",
+      "name": "ספגטי אסם 500 גרם",
       "category": "מאכל ושתיה סגורים",
-      "osherad_barcode": "7290000060316",
-      "shufersal_barcode": "7290000060316",
-      "notes": "Osem Perfecto spaghetti 500g ('אודם' in the request was a mishearing of 'אסם'). National brand — assumed same EAN both chains; verify on first run.",
+      "osherad_barcode": "7290000060880",
+      "shufersal_barcode": "7290000060880",
+      "notes": "Originally listed as 'אסם פרפקטו' spaghetti (barcode 7290000060316, which doesn't exist in either feed). On first-run verification (2026-09-06), Osem has no 'Perfecto'-branded spaghetti in either catalog — only a plain Osem-brand spaghetti (made by their Zara pasta subsidiary), 500g, same EAN 7290000060880 at both chains. Updated name/barcode accordingly.",
       "added": "2026-09-06"
     },
     {
-      "name": "פסטה אסם פרפקטו פנה ריגטה 500 גרם",
+      "name": "פסטה פנה ריגטה ברילה 500 גרם",
       "category": "מאכל ושתיה סגורים",
-      "osherad_barcode": "7290000069258",
-      "shufersal_barcode": "7290000069258",
-      "notes": "Requested as 'פסטה בצורת בורד' from Perfecto; Perfecto makes no bow-tie/farfalle shape, and the user said any Perfecto shape both chains carry at the same size is fine — penne rigate 500g chosen as the most universally stocked short shape. Verify EAN on first run.",
+      "osherad_barcode": "8076802085738",
+      "shufersal_barcode": "8076802085738",
+      "notes": "Requested as 'פסטה בצורת בורד' from Perfecto (barcode 7290000069258, which doesn't exist in either feed). On first-run verification (2026-09-06), Perfecto sells no penne (or any short pasta shape) in either catalog at all — only Barilla penne rigate, 500g, is carried under the same EAN 8076802085738 at both chains. Updated name/barcode accordingly per the user's stated fallback: any equivalent shape both chains carry at the same size is fine.",
       "added": "2026-09-06"
     },
     {
-      "name": "דבש יד מרדכי טהור מפרחי בר 350 גרם",
+      "name": "דבש טבעי עמק חפר 350 גרם",
       "category": "מאכל ושתיה סגורים",
-      "osherad_barcode": "7290002130567",
-      "shufersal_barcode": "7290002130567",
-      "notes": "User asked for 300g; no 300g exists — closest is the 350g jar ('דבש טהור מפרחי בר', צנצנת), which the user approved. Yad Mordechai / Strauss. Verify EAN on first run.",
+      "osherad_barcode": "7290012359507",
+      "shufersal_barcode": "7296073078579",
+      "notes": "Originally 'יד מרדכי טהור מפרחי בר 350 גרם' (barcode 7290002130567), which doesn't exist in either feed — Yad Mordechai honey does not appear in Shufersal's catalog at all. On first-run verification (2026-09-06), the closest genuinely-equivalent product both chains actively sell is natural honey from the same manufacturer (מכוורת עמק חפר / Emek Hefer Apiary), 350g, though registered under different EANs and different retail names per chain ('דבש טבע הדבש' at Osher Ad vs 'דבש טבעי מפרחי שדה' at Shufersal). Updated name/barcodes accordingly.",
       "added": "2026-09-06"
     },
     {
-      "name": "רביולי פסטה נונה גבינות 400 גרם",
+      "name": "רביולי גבינה קלאסי שטראוס 400 גרם",
       "category": "מאכל ושתיה סגורים",
-      "osherad_barcode": "7290006306302",
-      "shufersal_barcode": "7290006306302",
-      "notes": "Pasta Nonna cheese ravioli (parmesan & ricotta filling), 400g — the plain 'רגיל' version, not the kids' variant (7290006306296), the sweet-potato one (7290006306319), or any butter-sauce version. Chilled fresh pasta — availability can be less stable between chains; confirm Osher Ad still stocks it on first run and search by name/manufacturer/weight if the barcode doesn't resolve.",
+      "osherad_barcode": "7290003989539",
+      "shufersal_barcode": "7290003989539",
+      "notes": "Originally 'פסטה נונה' (Pasta Nonna) cheese ravioli (barcode 7290006306302, which doesn't exist in either feed). On first-run verification (2026-09-06), Pasta Nonna does not appear in Shufersal's catalog at all — the closest equivalent both chains actively sell under the SAME EAN is Strauss classic cheese ravioli, 400g. Updated name/barcode accordingly.",
       "added": "2026-09-06"
     }
   ]
