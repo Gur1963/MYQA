@@ -42,8 +42,8 @@
       "name": "ביצים L (מנורמל ל-12 יח')",
       "category": "מאכל ושתיה סגורים",
       "osherad_barcode": "7290011778187",
-      "shufersal_barcode": "7290001201572",
-      "notes": "osherad = ביצים 18 יח' בינוני (18-count medium); shufersal = ביצים ארוזות XL 12 יחידות (12-count XL) — closest equivalent available at each chain",
+      "shufersal_barcode": "7290001201589",
+      "notes": "osherad = ביצים 18 יח' בינוני (18-count medium). shufersal barcode 7290001201572 (ביצים ארוזות XL 12 יחידות) stopped resolving in the shufersal catalog as of 2026-09-13 -- delisted (no longer in PriceFull feed). Closest genuinely-equivalent still-sold product found by catalog search: 7290001201589 = '12 ביצי משק טריות L' (same manufacturer מ.לסר/Lesser, plain farm eggs, still 12-count, size stepped down from XL to L since no plain XL/L 12-count option remains -- only organic/omega3/cage-free 12-count variants exist at much higher price tiers). Updated barcode + notes accordingly.",
       "osherad_normalize": "price / 18 * 12, round 2 decimals"
     },
     {
