@@ -27,9 +27,9 @@
     {
       "name": "טונה סטארקיסט בשמן 4X160 גרם",
       "category": "מאכל ושתיה סגורים",
-      "osherad_barcode": "7290005287213",
+      "osherad_barcode": "7290017617831",
       "shufersal_barcode": "7290005287206",
-      "notes": "same physical product (טונה בשמן סטארקיסט, 640g, ת. ישראל) registered under different EANs per chain — confirmed by name/manufacturer/weight, not barcode"
+      "notes": "same physical product (טונה בשמן סטארקיסט, ת. ישראל) registered under different EANs per chain — confirmed by name/manufacturer/weight, not barcode. osherad barcode 7290005287213 stopped resolving as of 2026-09-30 -- delisted (no longer in PriceFull feed). Closest genuinely-equivalent still-sold product found by catalog search: 7290017617831 = 'טונה בשמן סטארקיסט 4' (same brand/manufacturer, same 4-pack-in-oil format, 560g instead of 640g), priced 20.90 -- identical to the price the old barcode last reported, strongly suggesting a re-issued EAN for the same listing. Updated barcode accordingly."
     },
     {
       "name": "קפה נמס טסטרס צויס 200 גרם",
