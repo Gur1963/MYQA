@@ -50,8 +50,9 @@
       "name": "קוקה קולה זירו 1.5 ליטר",
       "category": "מאכל ושתיה סגורים",
       "osherad_barcode": "7290110115227",
-      "shufersal_barcode": "7290110115227",
-      "notes": "same barcode both chains"
+      "shufersal_barcode": "7290110115418",
+      "notes": "osherad barcode 7290110115227 (plain קוקה קולה זירו 1.5 ל, single bottle) still resolves at osherad. shufersal's identical single-bottle EAN 7290110115227 stopped resolving as of 2026-10-07 -- delisted (no longer in PriceFull feed); only caffeine-free, lemon-flavored, and 6-pack variants of 1.5L Zero remain in shufersal's catalog, none of which is a flavor-equivalent single bottle. Closest genuinely-equivalent still-sold product: 7290110115418 = 'קוקה קולה זירו 6*1.5 ל' (same plain Zero flavor, same manufacturer/bottler -- החברה המרכזית לייצור משקאות, i.e. the official Coca-Cola licensee -- just packaged as a 6-pack). Applied a per-unit normalize formula to keep the tracked price on the same single-1.5L-bottle basis as before. Updated barcode + notes accordingly.",
+      "shufersal_normalize": "price / 6, round 2 decimals"
     },
     {
       "name": "סירופ יכין פטל דיאט 1 ליטר",
