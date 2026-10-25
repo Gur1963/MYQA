@@ -127,9 +127,10 @@
     {
       "name": "שמפו הד&שולדרס קלאסי 625 מ\"ל",
       "category": "ניקיון וטואלטיקה",
-      "osherad_barcode": "8700216418300",
+      "osherad_barcode": "8006540968598",
       "shufersal_barcode": "8700216418300",
-      "notes": "same barcode both chains",
+      "notes": "shufersal still carries the original 625ml קלאסי bottle under EAN 8700216418300. osherad barcode 8700216418300 stopped resolving as of 2026-10-25 -- delisted (no longer in PriceFull feed). Closest genuinely-equivalent still-sold product found by catalog search: 8006540968598 = same 'שמפו הד&שולדרס קלאסי' line, same manufacturer (פרוקטר & גמבל), just repackaged as a 1-liter bottle instead of 625ml. Applied a per-unit normalize formula to keep the tracked price on the same 625ml basis as before. Updated barcode + notes accordingly.",
+      "osherad_normalize": "price / 1000 * 625, round 2 decimals",
       "added": "2026-08-27"
     },
     {
