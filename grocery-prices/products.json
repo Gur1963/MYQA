@@ -81,9 +81,10 @@
     {
       "name": "מגבות נייר ניקול 6 גלילים",
       "category": "ניקיון וטואלטיקה",
-      "osherad_barcode": "7290000188355",
+      "osherad_barcode": "7290103705855",
       "shufersal_barcode": "7290000188355",
-      "notes": "same barcode both chains"
+      "notes": "shufersal still carries Nicol 6-roll paper towels under EAN 7290000188355. osherad barcode 7290000188355 stopped resolving reliably from 2026-10-15 onward and has not resolved at all since 2026-11-10 -- delisted (Nicol brand no longer appears in osherad's PriceFull feed at all). Closest genuinely-equivalent still-sold product found by catalog search: 7290103705855 = 'מגבות נייר קשת 8 גלילים' (Keshet brand, שניב תעשיות נייר, plain paper towel multi-roll pack, 8 rolls instead of 6, last sold 2026-11-19 -- actively sold). Applied a per-roll normalize formula to keep the tracked price on the same 6-roll basis as before. Updated barcode + notes accordingly.",
+      "osherad_normalize": "price / 8 * 6, round 2 decimals"
     },
     {
       "name": "נייר טואלט לילי פסטל 32 גלילים",
